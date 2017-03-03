@@ -18,6 +18,6 @@ public class MyMessages {
 	@Produces(MediaType.APPLICATION_JSON)
 	public List<Message> getMessages() {
 		return messageService.getAllMessages();
-	}
+	} 
 
 }
